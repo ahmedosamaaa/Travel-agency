@@ -1,0 +1,100 @@
+<html lang="en">
+<head>
+   
+   <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="./Assets/Img/logo .png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet" href="./Assets/CSS/Signup.css">
+    <title>Sign up</title>
+</head>
+<body class="body">
+  <header style="background-image: url(./Assets/Img/header.jpg);">
+    <a href="home.html" class="logo"><img src="./Assets/Img/logo .png"></a>
+    <nav class="navigation">
+        <a href="home.html">Home</a>
+        <a href="offers.html">Our Offers</a>
+        <a href="continent.html">Our Tours</a>
+        <a href="reviews.html">Reviews</a>
+    </nav>
+    <div id="search">
+        <form class="search-bar">
+            <input class="google" type="search" placeholder="Type your text here" style="font-size:20px" required>
+            <button class="Search-icon"><i class="fa fa-search"></i></button>
+        </form>
+    </div>
+    <div id="log">
+        <a class="Login" href="Login.html">Login</a>
+    </div>
+</header>
+<div class="form">
+  <form action="./home.html">
+      <div class="container">
+          <h1>Register</h1>
+          <p class="main">Please Complete this form to create an account</p>
+          <hr>
+          <label for="firstname"><b>First Name</b></label><input type="text"  name="firstname"  placeholder ="First Name" class="fname"required>
+          <label for="lastname"><b>Last Name</b></label><input type="text"  name="lastname"  placeholder ="Last Name" class="sname"required>
+          <label for="phone"><b>Phone No.</b></label><input type="text"  name="mobile"  placeholder =" Phone No." id="mobile"required>
+          <label for="email"><b>E-Mail</b></label><input type="email" name="email"    placeholder=" Email"  id="email" required>
+          <label for="ID"><b>ID No.</b></label><input type="number" placeholder="ID number" name="ID" id="ID" required>
+          <label for="date"><b>Date</b></label>
+          <input type="date" name="date" id="date"required>
+          <label for="gender" style="margin-bottom: 15px;"><b>Gender</b></label>
+          <div class="rad-gender" style="display: inline-block;">
+          <div style="display: inline; margin: 0px 30px;"><input type="radio" name="gender" value="male"> Male</div>
+          <div style="display: inline; margin: 0px 30px;"><input type="radio" name="gender" value="female"> Female</div>
+          </div>
+          <p class="terms">By creating an account you agree to our <a href="#">Terms & Privacy</a></p>
+          <button type="submit" class="registerbtn">Register</button>
+          <div class="signin">
+            <p>Already have an account? <a href="./Login.html">Sign in</a></p>
+          </div>  
+        </div>
+    </form>
+    </div>
+  <footer>
+    <div class="footerflex">
+        <img src="./Assets/Img/logo .png" alt="" style="width: 150px;">
+        <div class="col1">
+        <a class="footer-text" href="#">
+        <ul>
+            <li>Home</li>
+            <li>About Us</li>
+            <li>Contact Us</li>
+        </ul>
+        </a>
+    </div>
+    <div class="col2">
+        <a class="footer-text" href="#">
+        <ul>
+            <li>Coronavirus (COVID-19) FAQs</li>
+            <li>Unique places to stay</li>
+            <li>Restaurant reservations</li>
+        </ul>
+        </a>
+    </div>
+    <div class="col3">
+        <a class="footer-text" href="#">
+        <ul>
+            <li>Terms & Conditions</li>
+            <li>Terms of Use</li>
+            <li>Privacy Policy</li>
+        </ul>
+        </a>
+    </div>
+    </div>
+    <div class="socialMedia">
+        <a href=""><i class="fa-brands fa-square-facebook"></i></a>
+        <a href=""><i class="fa-brands fa-instagram"></i></a>
+        <a href=""><i class="fa-brands fa-twitter"></i></a>
+    </div>
+    <div class="copyright">
+        <p>Copyright &copy;2022 Trivo.com. All rights reserved</p> 
+    </div>
+</footer>
+
+    
+</body>
+</html>
